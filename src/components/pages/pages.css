@@ -1,0 +1,147 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* home start*/
+#mainContainer{
+padding: 0 5px ;  
+font-family: Poppins; 
+}
+.topContainer{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.topTextContainer{
+ display: flex;  
+ align-items: center;
+ justify-content: center;
+ flex-direction: row; 
+ margin: 50px 0;
+ 
+}
+.leftText{
+ width: 47%;   
+}
+.rightText{
+width: 47%;    
+}
+.sealogText{
+color: #ff0b34a4;
+}
+.topImage,img{
+ display: flex;
+justify-content: center;
+align-items: center;
+ width: 97%;   
+}
+
+.customerSupportContainer{
+display: flex;
+flex-direction: column;
+padding: 40px 40px;
+}
+.customerSupportContainer  h1{
+    font-weight: 700;
+}
+.customerSupportSubContainer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: row;
+padding: 40px 0;
+}
+.groupServiceText{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 30%;
+
+}
+
+
+.icons{
+ font-size: 30px;  
+ color: grey;
+ cursor: pointer; 
+}
+.groupTextDescription{
+display: flex;
+flex-direction: column;
+}
+.arrowLink{
+margin: 20px 0px;
+}
+
+.companyToolsContainer{
+ display: flex;
+flex-direction: column;
+padding: 40px 40px;   
+}
+.companyToolsContainer h1{
+font-weight: 700;
+width: 40%;
+}
+.companyToolsSubContainer{
+ display: flex;
+ align-items: center;
+justify-content: space-between;
+flex-direction: row;
+padding: 40px 0;  
+}
+@media (max-width:900px) {
+#mainContainer{
+   padding: 50px 5px 0 5px ;  
+   
+  }
+.topTextContainer{
+display: flex;
+flex-direction: column;
+}
+.leftText{
+ width: 90%;   
+ }
+.rightText{
+ width: 90%;    
+ }
+ .customerSupportContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0;
+  }
+.customerSupportSubContainer {
+ display: flex; 
+ flex-direction: column;
+ padding: 40px 0; 
+} 
+.groupServiceText{
+ width: 80%;
+ }
+
+ .customerSuport{
+margin: 30px 0 30px 0;
+ }
+ .companyToolsContainer{
+  padding: 40px 0; 
+ }
+ .companyToolsContainer h1{
+    font-weight: 700;
+    width: 100%;
+    }
+ .companyToolsSubContainer{
+ display: flex; 
+flex-direction: column;   
+ }
+ .airCargaoService{
+ margin: 30px 0 30px 0;   
+ }
+}
+/* home end */
