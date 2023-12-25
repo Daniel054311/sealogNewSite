@@ -1,9 +1,14 @@
 import React from "react";
+import GoogleMap from "../GoogleMap";
+import Footer from "../footer/footer"
 
 const CompanyLocation = () => {
     return ( 
         <>
-       <h1>Feature is coming soon</h1>
+       
+            <GoogleMap />
+            
+            <Footer />
         </>
      );
 }

@@ -105,6 +105,7 @@ img {
 @media (max-width: 900px) {
   #mainContainer {
     padding: 50px 5px 0 5px;
+
   }
 
   .topTextContainer {
@@ -156,3 +157,40 @@ img {
   }
 }
 /* home end */
+
+
+/* CustomerCare page */
+/* customerCareContainer  */
+
+.customerCareContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 64px;
+  padding: 10px 20px;
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 1fr;
+    gap: 64px;
+}
+}
+.customerCareContainer h1{
+  color: #ff0b34a4;
+  font-size: 70px;
+}
+
+.customerCareContainer h2{
+  color: #ff0b34a4;
+  font-size: 50px;
+}
+
+.customerCareContainer button{
+  margin: 20px 0;
+  b
+  border: none;
+  background-color: orange;
+  padding: 10px;
+  
+}
+.customerCareContainerimg{
+  width: 100%;
+}
