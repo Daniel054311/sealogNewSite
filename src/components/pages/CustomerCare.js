@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../footer/footer"
 import customerCareImg from "../../assets/customerCare.png";
 
 const CustomerCare = () => {
@@ -24,9 +25,10 @@ const CustomerCare = () => {
           <button>READ MORE</button>
         </div>
         <div>
-        <img className="customerCareContainerimg" src={customerCareImg} alt="customer care picture" />
+        <img className="customerCareContainerimg" src={customerCareImg} alt="customer care " />
         </div>
-      </div>
+          </div>
+          <Footer />
     </>
   );
 };

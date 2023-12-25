@@ -185,10 +185,12 @@ img {
 
 .customerCareContainer button{
   margin: 20px 0;
-  b
   border: none;
   background-color: orange;
   padding: 10px;
+  color: #FFFFFF;
+  font-size: 24px;
+  border-radius: 5px;
   
 }
 .customerCareContainerimg{
