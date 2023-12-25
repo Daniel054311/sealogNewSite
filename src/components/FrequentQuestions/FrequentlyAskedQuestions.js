@@ -13,11 +13,9 @@ const Accordion = ({ title, content }) => {
       className={`accordion ${isActive ? "active" : ""}`}
       onClick={handleAccordionClick}
     >
-      
-      <h2>{title}</h2>
+      <h2 style={{ color: "grey" }}>{title}</h2>
       <hr />
       <div className="panel" style={{ maxHeight: isActive ? "100%" : "0" }}>
-
         <p>{content}</p>
       </div>
     </div>
@@ -27,19 +25,19 @@ const Accordion = ({ title, content }) => {
 const FrequentlyAskedQuestions = () => {
   return (
     <>
-      <div className="accordionContainer" style={{margin:"50px 0"}}>
+      <div className="accordionContainer" style={{ margin: "50px 0" }}>
         <h2>Frequently Asked Questions</h2>
         <Accordion
-          title="Section 1"
-          content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          title="Where is the company located ?"
+          content=" 'Our company is situated in Apowa, a vibrant community in the beautiful country of Ghana. We are proud to be a part of this region and contribute to its growth and development.' "
         />
         <Accordion
-          title="Section 2"
-          content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          title="For how many years has the company been in existence ?"
+          content=" 'Our company has been proudly serving our clients and contributing to the industry for the past five years. During this time, we've been dedicated to providing top-notch services and building lasting relationships with our valued customers.' "
         />
         <Accordion
-          title="Section 3"
-          content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          title="How many days does it take to deliver goods ?"
+          content=" 'The delivery time for our goods depends on the specific service you choose, the destination, and any additional requirements. We offer various shipping options to meet different delivery needs. Please feel free to contact our customer support team, and they will provide you with accurate and detailed information based on your specific shipping preferences and destination.' "
         />
       </div>
     </>

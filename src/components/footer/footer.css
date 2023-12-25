@@ -2,13 +2,51 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr auto;
   background-color: #f0f0f0;
-  gap:64px;
+  gap: 64px;
   padding: 10px 20px;
 
-  @media  screen and (max-width: 900px){
-    grid-template-columns:  1fr; 
-    gap:64px;
-    
- }
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 1fr;
+    gap: 64px;
+
+  }
+}
+h1{
+    color: #2c2626;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+  gap: 20px;
+  color: grey;
 }
 
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.office {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
