@@ -1,0 +1,14 @@
+.footerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  background-color: #f0f0f0;
+  gap:64px;
+  padding: 10px 20px;
+
+  @media  screen and (max-width: 900px){
+    grid-template-columns:  1fr; 
+    gap:64px;
+    
+ }
+}
+

@@ -13,8 +13,11 @@ const Accordion = ({ title, content }) => {
       className={`accordion ${isActive ? "active" : ""}`}
       onClick={handleAccordionClick}
     >
+      
       <h2>{title}</h2>
+      <hr />
       <div className="panel" style={{ maxHeight: isActive ? "100%" : "0" }}>
+
         <p>{content}</p>
       </div>
     </div>
