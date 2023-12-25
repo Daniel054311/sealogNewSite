@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Rubik', sans-serif;
+}
 .nav{
 display: flex;
 align-items: center;
@@ -58,6 +60,7 @@ left: 20px;
 
 #mobile{
 display: none;
+cursor: pointer;
 }
 
 #mobile i{

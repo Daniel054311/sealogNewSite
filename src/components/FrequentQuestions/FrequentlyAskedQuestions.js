@@ -24,7 +24,7 @@ const Accordion = ({ title, content }) => {
 const FrequentlyAskedQuestions = () => {
   return (
     <>
-      <div className="accordionContainer">
+      <div className="accordionContainer" style={{margin:"50px 0"}}>
         <h2>Frequently Asked Questions</h2>
         <Accordion
           title="Section 1"
