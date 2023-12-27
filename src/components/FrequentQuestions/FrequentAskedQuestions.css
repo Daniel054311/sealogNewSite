@@ -19,6 +19,7 @@
     font-weight: bold;
     float: right;
     margin-left: 5px;
+    transition: 0.4s ease-in-out;
   }
   
   .active:after {
