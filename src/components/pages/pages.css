@@ -253,7 +253,18 @@ padding: 0 2%;
   flex-direction: row;
   gap: 20px;
   align-items: center;
+  word-spacing: 5px;
+  line-height: 20px;
+
+  @media screen  and (max-width: 900px) {
+    display: flex;
+    flex-direction: column; 
+  }
 }
 .aboutContainer .rightContainer img{
-  width: 500px;
+  width: 50%;
+
+  @media screen  and (max-width: 900px) {
+    width: 100%;
+  }
 }
