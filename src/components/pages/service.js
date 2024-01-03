@@ -8,7 +8,7 @@ const ServicePage = () => {
 
           <div className="companyToolsSubContainer">
             <div className="marineCargoService groupServiceText">
-              <i class="fa-solid fa-ship icons"></i>
+              <i className="fa-solid fa-ship icons"></i>
               <h2>Marine cargo Service</h2>
               <div className="textForArrowLink groupTextDescription">
                 Our Marine Cargo Service ensures the safe and efficient
@@ -22,7 +22,7 @@ const ServicePage = () => {
             </div>
 
             <div className="airCargaoService groupServiceText">
-              <i class="fas fa-plane-departure icons"></i>
+              <i className="fas fa-plane-departure icons"></i>
               <h2>Air cargo Service</h2>
               <div className="textForArrowLink groupTextDescription">
                 Experience swift and secure transportation of your goods with
@@ -37,7 +37,7 @@ const ServicePage = () => {
             </div>
 
             <div className="inlandCargoService groupServiceText">
-              <i class="fas fa-water icons"></i>
+              <i className="fas fa-water icons"></i>
               <h2>Inland Cargo Service</h2>
               <div className="textForArrowLink groupTextDescription">
                 Navigate the inland transportation landscape effortlessly with
@@ -55,7 +55,7 @@ const ServicePage = () => {
 
           <div className="companyToolsSubContainer">
             <div className="marineCargoService groupServiceText">
-              <i class="fa-solid fa-user-gear icons"></i>
+              <i className="fa-solid fa-user-gear icons"></i>
               <h2>Heavy Equipment service</h2>
               <div className="textForArrowLink groupTextDescription">
                 Elevate your logistics experience with our Heavy Equipment
@@ -70,7 +70,7 @@ const ServicePage = () => {
             </div>
 
             <div className="airCargaoService groupServiceText">
-              <i class="fa-solid fa-truck icons"></i>
+              <i className="fa-solid fa-truck icons"></i>
               <h2>Car Shipping Service</h2>
               <div className="textForArrowLink groupTextDescription">
                 Experience seamless and reliable Car Shipping Service with us.
@@ -85,7 +85,7 @@ const ServicePage = () => {
             </div>
 
             <div className="inlandCargoService groupServiceText">
-              <i class="fa-solid fa-truck-moving icons"></i>
+              <i className="fa-solid fa-truck-moving icons"></i>
               <h2>Container Sea Cargo</h2>
               <div className="textForArrowLink groupTextDescription">
                 Efficient and secure Container Sea Cargo services tailored to

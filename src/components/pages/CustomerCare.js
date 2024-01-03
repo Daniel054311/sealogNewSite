@@ -1,34 +1,46 @@
 import React from "react";
-import Footer from "../footer/footer"
+import Footer from "../footer/footer";
 import customerCareImg from "../../assets/customerCare.png";
 
 const CustomerCare = () => {
   return (
     <>
-      <div className="customerCareContainer" >
+      <div className="customerCareContainer">
         <div>
           <h1>CUSTOMER</h1>
-          <h2>SERVICE</h2>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolores
-            possimus reiciendis numquam perspiciatis, eius commodi quis debitis?
-            Laborum maxime dolor cupiditate delectus iusto quo sunt rerum harum
-            nobis excepturi. Quo eveniet dicta, nihil molestiae hic laborum cum
-            blanditiis sapiente fuga aliquid, pariatur repellat itaque excepturi
-            debitis ab. Accusamus unde architecto magni vitae? Sequi sed, nemo
-            laudantium nam consequuntur eligendi? Ipsam consectetur dolores
-            autem rem illum necessitatibus enim ab deserunt fugit voluptatem
-            minima distinctio sint fugiat deleniti quis natus est mollitia
-            doloribus, nobis, ducimus veritatis ipsa. Consequatur possimus iusto
-            nobis.
+          <h2 className="serviceH2">SERVICE</h2>
+          <div className="customerCareLeftContainer">
+            Welcome to our Customer Care Center! We are dedicated to providing
+            exceptional support to ensure a seamless experience for our valued
+            customers. Our commitment is to address your inquiries, resolve
+            issues promptly, and make your interaction with our products or
+            services as smooth as possible.
+            <h2>Contact Us</h2>
+            <h3>Phone Support:</h3>
+            <div>
+              For immediate assistance, our customer care representatives are
+              available by phone. Please call us at{" "}
+              <a href="tel:0543116973">+233 543116973</a>.
+            </div>
+            <h3>Email Support:</h3>
+            <div>
+              Feel free to email us at{" "}
+              <a href="mailto:someone@example.com">example@gmail.com</a>. Our
+              team will respond to your inquiries as quickly as possible.
+            </div>
           </div>
           <button>READ MORE</button>
         </div>
+
         <div>
-        <img className="customerCareContainerimg" src={customerCareImg} alt="customer care " />
+          <img
+            className="customerCareContainerimg"
+            src={customerCareImg}
+            alt="customer care "
+          />
         </div>
-          </div>
-          <Footer />
+      </div>
+      <Footer />
     </>
   );
 };
