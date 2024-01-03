@@ -216,7 +216,7 @@ img {
   height: auto;
   display: flex;
   flex-direction: column;
-
+padding: 0 2%;
   @media screen and (max-width: 900px) {
    
     
@@ -235,9 +235,25 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: (100%);
+  filter: opacity(70%);
 }
 
 .leftContainer h1 {
-  
+  color: #FFFFFF;
+}
+.aboutContainer .rightContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.rightContainer .contenContainer{
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.aboutContainer .rightContainer img{
+  width: 500px;
 }
