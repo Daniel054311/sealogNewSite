@@ -105,12 +105,12 @@ img {
 @media (max-width: 900px) {
   #mainContainer {
     padding: 50px 5px 0 5px;
-
   }
 
   .topTextContainer {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
   }
 
   .leftText,
@@ -145,11 +145,13 @@ img {
   .companyToolsContainer h1 {
     font-weight: 700;
     width: 100%;
+    margin-top: 50px;
   }
 
   .companyToolsSubContainer {
     display: flex;
     flex-direction: column;
+   
   }
 
   .airCargaoService {
@@ -171,6 +173,10 @@ img {
   @media screen and (max-width: 900px) {
     grid-template-columns: 1fr;
     gap: 64px;
+    
+    h1{
+      margin-top: 80px;
+    }
 }
 }
 .customerCareContainer h1{
@@ -195,4 +201,22 @@ img {
 }
 .customerCareContainerimg{
   width: 100%;
+}
+
+/* ABOUT PAGE */
+
+.aboutContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 64px;
+  padding: 10px 20px;
+
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 1fr;
+    gap: 64px;
+    
+    h1{
+      margin-top: 80px;
+    }
+}
 }

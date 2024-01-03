@@ -11,9 +11,10 @@ import CompanyLocation from './components/pages/CompanyLocation';
 
 function App() {
   return (
+    
 <div className='App'>
- <Navbar/>
-
+ 
+<Navbar />
  <Routes>
 
  <Route path="/" element={<HomePage/>} />    
