@@ -43,7 +43,7 @@ const HomePage = () => {
                 satisfaction. They have diverse backgrounds and skills, ranging
                 from engineering, management, finance, marketing, to IT.
                 <Link className="arrowLink">
-                  Lean More <i class="fa-solid fa-arrow-right-long"></i>
+                  Lean More <i className="fa-solid fa-arrow-right-long"></i>
                 </Link>
               </div>
             </div>
@@ -57,7 +57,7 @@ const HomePage = () => {
                 with the best possible customer experience and make your
                 logistics journey as smooth as possible.
                 <Link className="arrowLink">
-                  Lean More <i class="fa-solid fa-arrow-right-long"></i>
+                  Lean More <i className="fa-solid fa-arrow-right-long"></i>
                 </Link>
               </div>
             </div>
@@ -72,7 +72,7 @@ const HomePage = () => {
                 pricing model is based on the following factors:
                 <div>
                   <Link className="arrowLink">
-                    Lean More <i class="fa-solid fa-arrow-right-long"></i>
+                    Lean More <i className="fa-solid fa-arrow-right-long"></i>
                   </Link>
                 </div>
               </div>

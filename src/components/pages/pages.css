@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin: 50px 0;
+  margin-bottom: 50px;
 }
 
 .leftText,
